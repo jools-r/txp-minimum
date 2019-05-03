@@ -4,12 +4,12 @@
 		<txp:if_status>
 			<txp:if_article_list>
 				<txp:if_category>
-					<txp:category title="1" /> <txp:chh_if_data><txp:page_url type="pg" /> </txp:chh_if_data>&bull; <txp:site_name />
+					<txp:category title="1" /> <txp:evaluate><txp:page_url type="pg" /> </txp:evaluate>&bull; <txp:site_name />
 				<txp:else />
 					<txp:if_section name=",default">
 						<txp:site_name />
 					<txp:else />
-						<txp:section title="1" /> <txp:chh_if_data><txp:page_url type="pg" /> </txp:chh_if_data> &bull; <txp:site_name />
+						<txp:section title="1" /> <txp:evaluate><txp:page_url type="pg" /> </txp:evaluate> &bull; <txp:site_name />
 					</txp:if_section>
 				</txp:if_category>
 			</txp:if_article_list>
