@@ -27,7 +27,7 @@
 		<txp:if_keywords>
 			<meta name="keywords" content="<txp:keywords />">
 		</txp:if_keywords>
-		<meta name="description" content="<txp:etz_striptags><txp:rss_auto_excerpt showlinkwithexcerpt='0' /></txp:etz_striptags>">
+    <meta name="description" content="<txp:evaluate query='substring("<txp:excerpt escape="tags" />", 1, 158)' escape="trim" /><txp:evaluate query='string-length("<txp:excerpt escape="tags" />" > 158)'>…</txp:evaluate>">
 		<link rel="canonical" href="<txp:permlink />">
 	<txp:else />
 		<meta name="description" content="<txp:site_slogan />">
