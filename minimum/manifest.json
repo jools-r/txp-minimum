@@ -1,8 +1,8 @@
 {
-  "title": "Minimum",
-  "txp-type": "textpattern-theme",
-  "version": "1.4",
-  "description": "Minimum theme for Textpattern CMS",
-  "author": "Stephan Hochaus",
-  "author_uri": "https://github.com/yauh/txp-minimum"
+    "title": "Minimum",
+    "version": "1.4",
+    "description": "Minimum theme for Textpattern CMS",
+    "author": "Stephan Hochaus",
+    "author_uri": "https://github.com/yauh/txp-minimum",
+    "txp-type": "textpattern-theme"
 }
