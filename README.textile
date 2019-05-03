@@ -1,13 +1,13 @@
 h1. txp-minimum
 
-Minimum theme for "Textpattern CMS":http://textpattern.com. See a "working demo here":http://minimum.yauh.de.
+Minimum theme for "Textpattern CMS":http://textpattern.com.
 
 A huge *thank you* goes to "Amit Varia":http://amitvaria.com/, who inspired this theme as well as "Phil Wareham":http://www.philwareham.co.uk/, who added a great deal of magic touch.
 
-Minimum enables you to publish your writings, but it does not allow you to:
+Minimum is a minimal theme that focuses on enabling you to publish your writings. The following are not supported out of the box but feel free to add them as required:
 
 * use comments
-* use categories, sections, or even tags
+* use categories, sections or tags
 * use article images (technically you can use images inside articles, just no article image)
 * include a contact form
 * hook up to social networks or have sharing buttons
@@ -17,9 +17,13 @@ Minimum is a theme that lets you write. It embraces "the golden ratio":http://al
 
 h2. Installation
 
-Getting up and running is a breeze. Minimum is guaranteed to work on Textpattern 4.5.4. All you need is grab a copy of "cxc_templates":https://github.com/perlmonkey/txp-cxc-templates, install it and copy the minimum theme folder content to your @tpl@ directory.
+Getting up and running is a breeze. Minimum 1.4 upwards works on Textpattern 4.7.x. 
 
-It would also be a advisable to set the advanced preference 'Prevent widowed words in article titles?' to 'No', otherwise long title wording could potentially spill out of your responsive page on narrow screen widths.
+# Place the entire @minimum@ folder in the @themes@ folder of your textpattern directory.
+# Visit "Presentation › Themes":https://docs.textpattern.com/administration/themes-panel and import the minimum theme from the drop-down.
+# Visit "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel and switch the theme used to "minimum".
+
+It would also be advisable to set the advanced preference 'Prevent widowed words in article titles?' to 'No', otherwise long title wording could potentially spill out of your responsive page on narrow screen widths.
 
 In order to make the most of your shiny new slide-out drawer (introduced in version 1.2) you should do the following:
 
@@ -27,11 +31,20 @@ In order to make the most of your shiny new slide-out drawer (introduced in vers
 # Create a new article with an excerpt about yourself, and publish it in the @about@ section
 # You can also assign an optional article image to the about article - dimensions are 64x64 pixels (if you wish to have a HiDPI image then load it into Textpattern at 128x128 pixels, it will be scaled down accordingly). It will only be displayed in the slide-out drawer!
 # Create a new link category called @social-media@
-# Create as many links as you like ad assign them to the category @social-media@
+# Create as many links as you like and assign them to the category @social-media@
 # If you wish, you can also directly edit the content of the form @minimum_drawer@ to suit your own needs
 
 h2. More Information
 
-Have a look at "minimum.yauh.de":http://minimum.yauh.de for some more information about the theme.
+Have a look at "minimum.yauh.de":http://minimum.yauh.de (currently unavailable) for some more information about the theme.
 
 *PS:* Since Minimum is so limited in what it does, changing most preference settings does not have much of an effect. It is, however, suggested that you have nice URLs (/article should be just fine) and disable the comments.
+
+h2. Changelog
+
+* *v1.4* – Update for Textpattern v4.7.
+** Files reorganised and renamed
+** Included javascript from CDNs updated
+** Google Plus removed (as closed down by Google)
+** Minor modifications
+** Plugins no longer needed
