@@ -1,5 +1,5 @@
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
 <script>
 	$(function () {
 		// Google Code Prettify
@@ -50,4 +50,3 @@
 		});
 	}
 </script>
-<script src="https://apis.google.com/js/plusone.js">
